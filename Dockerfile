@@ -1,4 +1,5 @@
-FROM resin/rpi-raspbian:jessie
+#FROM resin/rpi-raspbian:jessie
+FROM resin/beaglebone-black-debian
 # Install Python.
 RUN apt-get update \
 	&& apt-get install -y python \
